@@ -5,6 +5,7 @@ import { ReactQueryConfig, ReactQueryConfigProvider } from 'react-query';
 import App from './App';
 
 import './index.css';
+import 'semantic-ui-css/semantic.min.css';
 
 const queryConfig: ReactQueryConfig = {
   shared: {

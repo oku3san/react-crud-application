@@ -3,7 +3,7 @@ import { Options as KyOptions, NormalizedOptions } from 'ky';
 import camelcaseKeys from 'camelcase-keys';
 
 export const DEFAULT_API_OPTIONS: KyOptions = {
-  prefixUrl: 'https://udemy-utils.herokuapp.com/',
+  prefixUrl: 'https://udemy-utils.herokuapp.com',
   timeout: 7000,
   retry: 2,
   hooks: {

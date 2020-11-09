@@ -9,6 +9,7 @@ const EventList: FC<{ events: Event[] }> = ({ events = [] }) => (
         <Card key={event.id} target="_blank" rel="noopener noreferrer">
           <Card.Content>
             <Card.Header>{event.title}</Card.Header>
+            <Card.Description>{event.body}</Card.Description>
           </Card.Content>
         </Card>
       ))}
